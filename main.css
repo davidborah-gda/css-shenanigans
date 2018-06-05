@@ -1,0 +1,31 @@
+body {
+    background-color: salmon;
+}
+
+.big-green-heading {
+    background-color:chartreuse;
+    color:blueviolet;
+    font-size: 72px;
+}
+
+.little-blue-heading {
+    font-size: 1.5em;
+    background-color: aliceblue;
+    color:burlywood;
+}
+
+ul {    
+    background-color: tomato;
+    color: silver;
+}
+
+.font-lightseagreen {
+            color: lightseagreen;
+        }
+
+
+#amazing-image {
+    border: 5px solid fuchsia;
+    border-radius: 20px;
+    display: block;
+}

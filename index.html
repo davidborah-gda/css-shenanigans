@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CSS Shenanigans</title>
-    <style>
+    <link rel="stylesheet" href="main.css">
+    <!-- <style>
         /* These are HTML tag selectors. This will select every element on the page that matches. */
         /* This is an internal stylesheet. Okay for small projects, long term maintenance an issue in larger projects. */
         body {
@@ -24,19 +25,19 @@
         ul > li:nth-child(1) {
             color: lightseagreen;
         }
-    </style>
+    </style> -->
 </head>
 <body>
-    <h1>Some Heading of Sorts</h1>
+    <h1 class="big-green-heading">Some Heading of Sorts</h1>
     <!-- The following is an In-Line styke. They take precenence, but are prone to errors and difficult to maintenane in the long run. -->
-    
-    <h1 style="background-color: aliceblue; color: black; font-size: 1.5em;">Things and Stuff!</h1>
+<p class="big-green-heading font-lightseagreen">Some other stuffs</p>
+    <h1 class="little-blue-heading font-lightseagreen">Things and Stuff!</h1>
     <ul>
-        <li>Cheese</li>
+        <li class="font-lightseagreen">Cheese</li>
         <li>Ham</li>
         <li>Cucumber</li>
-        <img src="http://via.placeholder.com/350x150" alt="Placeholder Image" />
-
+        <img id="amazing-image" src="http://via.placeholder.com/350x150" alt="Placeholder Image" />
+        <!-- <img id="amazing-image" src="http://via.placeholder.com/350x150" alt="Placeholder Image" /> -->
 
     </ul>
 </body>
